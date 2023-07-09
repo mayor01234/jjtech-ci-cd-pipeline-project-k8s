@@ -22,7 +22,7 @@ pipeline {
     stage('Git Checkout') {
       steps {
         echo 'Cloning the application code...'
-        git branch: 'main', url: 'https://github.com/anselmenumbisia/jjtech-ci-cd-pipeline-project-k8s.git'
+        git branch: 'main', url: 'https://github.com/mayor01234/jjtech-ci-cd-pipeline-project-k8s.git'
       }
     }
 
